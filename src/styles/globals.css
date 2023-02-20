@@ -3,5 +3,11 @@
 @tailwind utilities;
 
 @layer base {
- 
+  ul {
+    @apply font-Calibri  
+  }
+
+  button {
+    @apply font-Calibri
+  }
 }

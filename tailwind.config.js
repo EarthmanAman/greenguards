@@ -9,6 +9,9 @@ module.exports = {
       backgroundImage: {
         'my_bg' : "url('../../public/assets/worldmap.png')",
 
+      },
+      fontFamily: {
+        "Calibri": ["Calibri"]
       }
     },
   },
