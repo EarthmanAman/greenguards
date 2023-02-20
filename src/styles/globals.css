@@ -10,4 +10,12 @@
   button {
     @apply font-Calibri
   }
+
+  h1 {
+    @apply font-Calibri text-5xl uppercase font-bold
+  }
+
+  p {
+    @apply font-Calibri text-lg font-bold
+  }
 }

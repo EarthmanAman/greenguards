@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'my_bg' : "url('../../public/assets/worldmap.png')",
+        'carousel_1' : "url('../../public/assets/carousel_1_op.png')",
 
       },
       fontFamily: {

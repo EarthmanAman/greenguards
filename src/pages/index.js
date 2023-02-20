@@ -67,6 +67,22 @@ export default function Home() {
           </div>
           </div>
         </div>
+
+        {/* Carousel */}
+        <div className='flex flex-col h-[400px] my-10'>
+          <div className='flex-1 h-full'>
+            <h1 className='text-[#285430] mb-4'>Outstanding</h1>
+            <h1 className='text-[#BF0A30]'><span className='text-[#002868]'>CONS</span>ULTING FIRM IN</h1>
+          </div>
+          <div className='flex-4 bg-carousel_1 bg-contain overflow-hidden h-full relative'>
+            <h1 className='p-4 text-[#285430]'>Liberia</h1>
+
+            <div className='absolute top-5 right-40 w-64 text-center'>
+              <p className='text-[#3E3B34] leading-6 tracking-widest'>
+                We provide professional environmental and health consultancy in Liberia, Africa, and the world at large</p>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   )
