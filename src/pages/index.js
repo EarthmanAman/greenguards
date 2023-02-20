@@ -1,7 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+
+import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 import Logo from "../../public/assets/logo.png"
 import Flag from "../../public/assets/flag.png"
@@ -10,7 +14,20 @@ const inter = Inter({ subsets: ['latin'] })
 
 const imageLoader = require("../../loader");
 
+
 export default function Home() {
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+  };
+
+  
   return (
     <div className="bg-my_bg min-h-[960px] bg-contain bg-repeat-y px-20 py-3">
       <Head>
@@ -76,11 +93,20 @@ export default function Home() {
           </div>
           <div className='flex-4 bg-carousel_1 bg-contain overflow-hidden h-full relative'>
             <h1 className='p-4 text-[#285430]'>Liberia</h1>
+            
+              <div className='absolute top-5 right-40 w-64 text-center'>
+                <Slider {...settings}>
+                  <p className='text-[#3E3B34] leading-6 tracking-widest'>
+                    We provide professional environmental and health consultancy in Liberia, Africa, and the world at large
+                  </p>
 
-            <div className='absolute top-5 right-40 w-64 text-center'>
-              <p className='text-[#3E3B34] leading-6 tracking-widest'>
-                We provide professional environmental and health consultancy in Liberia, Africa, and the world at large</p>
-            </div>
+                  <p className='text-[#3E3B34] leading-6 tracking-widest'>
+                    We provide professional environmental and health consultancy in Liberia, Africa, and the world at large
+                  </p>
+
+                </Slider>
+              </div>
+            
           </div>
         </div>
       </main>
