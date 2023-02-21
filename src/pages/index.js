@@ -231,7 +231,7 @@ export default function Home() {
         </div>
 
         {/* MESSAGE FROM CHAIRMAN */}
-        {/* <div className='px-10 py-5 flex justify-between'>
+        <div className='px-10 py-5 flex justify-between'>
           <div className='flex-1'>
             <Image loader={imageLoader} src={Chairman} className="h-[100%] w-auto" alt="flag" />
           </div>
@@ -247,7 +247,7 @@ export default function Home() {
               We provide professional environmental and health consultancy in Liberia, Africa, and the world at large</p>
             </div>
           </div>
-        </div> */}
+        </div>
       </main>
     </div>
   )
