@@ -111,6 +111,7 @@ export default function Home() {
                 <Slider {...settings}>
                   <p className='text-[#3E3B34] leading-6 tracking-widest'>
                     We provide professional environmental and health consultancy in Liberia, Africa, and the world at large
+                    
                   </p>
 
                   <p className='text-[#3E3B34] leading-6 tracking-widest'>
@@ -130,15 +131,17 @@ export default function Home() {
             <h2 className='text-[#BF0A30]'><span className='text-[#002868]'>& What</span> Do we do</h2>
           </div>
 
-          <div className='flex space-x-3 px-32 text-center w-[80%] mt-8'>
+          <div className='flex space-x-3 pl-32 text-center w-[70%] mt-8'>
             <div>
               <p className='text-[#3E3B34] leading-6 tracking-widest'>
                     We provide professional environmental and health consultancy in Liberia, Africa, and the world at large
+                    professional environmental and health consultancy in Liberia, Africa, and the world at large
                 </p>
             </div>
             <div>
                 <p className='text-[#3E3B34] leading-6 tracking-widest'>
                     We provide professional environmental and health consultancy in Liberia, Africa, and the world at large
+                    professional environmental and health consultancy in Liberia, Africa, and the world at large
                   </p>
             </div>
           </div>
