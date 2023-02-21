@@ -19,7 +19,10 @@
     @apply font-Calibri text-3xl uppercase font-bold
   }
 
+  h3 {
+    @apply font-Calibri text-xl uppercase font-bold
+  }
   p {
-    @apply font-Calibri text-lg
+    @apply font-Calibri text-lg leading-6 tracking-widest
   }
 }

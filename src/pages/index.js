@@ -3,12 +3,15 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 
 import Slider from "react-slick";
-
+import {MdPlayCircleOutline} from "react-icons/md"
+import { IoIosArrowDropright } from "react-icons/io";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
 import Logo from "../../public/assets/logo.png"
 import Flag from "../../public/assets/flag.png"
+import Environmental from "../../public/assets/environmental.png"
+import Hand from "../../public/assets/hand.png"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +25,16 @@ export default function Home() {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+  };
+
+  const settings2 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
@@ -73,7 +86,7 @@ export default function Home() {
           <div>
           <div className='flex items-center'>
             <div className='mr-2'>
-              <Image loader={imageLoader} src={Flag} width={40} height={40} alt="logo" />
+              <Image loader={imageLoader} src={Flag} width={40} height={40} alt="flag" />
             </div>
             <div>
               <button className='bg-[#5FBF00] py-1 px-2 rounded-md text-[#3C493E] text-[0.8rem] font-bold'>
@@ -129,7 +142,67 @@ export default function Home() {
                   </p>
             </div>
           </div>
+
+          <div className='my-8 pl-32'>
+
+            <Slider {...settings2} className="relative">
+              <a href=''>
+                <div className='relative border-[1px] border-[#285430] w-[90%] p-6 rounded-lg mb-10'>
+                  <h3>Environmental Consulting</h3>
+                  <p className='text-sm my-3'>To provide professional environmental and health consultancy in Liberia.
+                    Professional environmental and health consultancy in Liberia</p>
+                  <IoIosArrowDropright size={45} color="#757575" />
+                  <div className='absolute -right-3 -z-10 -bottom-8 w-[80%]'>
+                    <Image loader={imageLoader} src={Environmental} className="w-[100%] h-auto" alt="environmental" />
+                  </div>
+                </div>
+              </a>
+
+              <a href=''>
+                <div className='relative border-[1px] border-[#285430] w-[90%] p-6 rounded-lg mb-10'>
+                  <h3>Environmental Consulting</h3>
+                  <p className='text-sm my-3'>To provide professional environmental and health consultancy in Liberia.
+                    Professional environmental and health consultancy in Liberia</p>
+                  <IoIosArrowDropright size={55} color="#757575" />
+                  <div className='absolute -right-3 -bottom-2 -z-10 w-[80%]'>
+                    <Image loader={imageLoader} src={Hand} className="w-[100%] h-auto" alt="environmental" />
+                  </div>
+                </div>
+              </a>
+
+              <a href=''>
+                <div className='relative border-[1px] border-[#285430] w-[90%] p-6 rounded-lg mb-10'>
+                  <h3>Environmental Consulting</h3>
+                  <p className='text-sm my-3'>To provide professional environmental and health consultancy in Liberia.
+                    Professional environmental and health consultancy in Liberia</p>
+                  <IoIosArrowDropright size={55} color="#757575" />
+                  <div className='absolute -right-3 -bottom-8 -z-10 w-[80%]'>
+                    <Image loader={imageLoader} src={Environmental} className="w-[100%] h-auto" alt="environmental" />
+                  </div>
+                </div>
+              </a>
+
+              <a href=''>
+                <div className='relative border-[1px] border-[#285430] w-[90%] p-6 rounded-lg mb-10'>
+                  <h3>Environmental Consulting</h3>
+                  <p className='text-sm my-3'>To provide professional environmental and health consultancy in Liberia.
+                    Professional environmental and health consultancy in Liberia</p>
+                  <IoIosArrowDropright size={55} color="#757575" />
+                  <div className='absolute -right-3 -bottom-8 -z-10 w-[80%]'>
+                    <Image loader={imageLoader} src={Environmental} className="w-[100%] h-auto" alt="environmental" />
+                  </div>
+                </div>
+              </a>
+
+              
+            </Slider>
+
+
+          </div>
+
         </div>
+
+
       </main>
     </div>
   )
