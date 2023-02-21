@@ -5,6 +5,7 @@ import { Inter } from '@next/font/google'
 import Slider from "react-slick";
 import {MdPlayCircleOutline} from "react-icons/md"
 import { IoIosArrowDropright } from "react-icons/io";
+import {GoQuote} from "react-icons/go"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -13,6 +14,7 @@ import Flag from "../../public/assets/flag.png"
 import Environmental from "../../public/assets/environmental.png"
 import Hand from "../../public/assets/hand.png"
 import BannerImage from "../../public/assets/field.jpg"
+import Chairman from "../../public/assets/man1.png"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -215,12 +217,35 @@ export default function Home() {
         </div>
 
         {/* Banner */}
-        {/* <div className='bg-[#F1F9F0] py-5 flex max-h-[200px] relative'>
-          <div className='flex-1'>
-            <p>We are inspired by nature and believe we have a duty as human to do whether it takes to protect it.</p>
+        <div className='bg-[#F1F9F0] py-5 flex h-[200px] w-full justify-between items-center pl-16 mb-16'>
+          <div className='flex-[1.5]'>
+            <GoQuote color='#BF0A30' size={25} className="mb-3"/>
+            <p className='uppercase font-bold'>We are inspired by nature and believe we have a duty as human to do whether it takes to protect it.</p>
           </div>
-          <div className='flex-1 justify-end'>
-             <Image loader={imageLoader} src={BannerImage} className="h-[90%] w-auto" alt="flag" />
+          <div className='flex-1 relative h-[100%]'>
+            {/* <p className='absolute right-0'>We are inspire</p> */}
+            <div className='absolute right-0'>
+              <Image loader={imageLoader} src={BannerImage} className="h-[150px] w-auto" alt="flag" />
+            </div>
+          </div>
+        </div>
+
+        {/* MESSAGE FROM CHAIRMAN */}
+        {/* <div className='px-10 py-5 flex justify-between'>
+          <div className='flex-1'>
+            <Image loader={imageLoader} src={Chairman} className="h-[100%] w-auto" alt="flag" />
+          </div>
+          <div className='flex-1 px-16'>
+            <div className='text-right'>
+              <h2 className='text-[#285430] mb-2'>MESSAGE FROM</h2>
+              <h2 className='text-[#BF0A30]'><span className='text-[#002868]'>CHA</span>IRMAN</h2>
+            </div>
+            <div className='mt-6'>
+              <p className='text-[#3E3B34] leading-6 tracking-widest mb-4'>We provide professional environmental and health consultancy in Liberia, Africa, and the world at large.
+              We provide professional environmental and health consultancy in Liberia, Africa, and the world at large</p>
+              <p className='text-[#3E3B34] leading-6 tracking-widest'>We provide professional environmental and health consultancy in Liberia, Africa, and the world at large.
+              We provide professional environmental and health consultancy in Liberia, Africa, and the world at large</p>
+            </div>
           </div>
         </div> */}
       </main>
