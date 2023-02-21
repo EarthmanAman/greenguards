@@ -12,6 +12,7 @@ import Logo from "../../public/assets/logo.png"
 import Flag from "../../public/assets/flag.png"
 import Environmental from "../../public/assets/environmental.png"
 import Hand from "../../public/assets/hand.png"
+import BannerImage from "../../public/assets/field.jpg"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -115,7 +116,15 @@ export default function Home() {
                   </p>
 
                   <p className='text-[#3E3B34] leading-6 tracking-widest'>
-                    We provide professional environmental and health consultancy in Liberia, Africa, and the world at large
+                    We engage in environmental and health research in Liberia, Africa, and the world;
+                  </p>
+
+                  <p className='text-[#3E3B34] leading-6 tracking-widest'>
+                    We engage in waste management services, consultancy, and research
+                  </p>
+
+                  <p className='text-[#3E3B34] leading-6 tracking-widest'>
+                    We provide training and education in environmental researchers, pollution monitoring, and mitigation services through symposia, seminars, lectures, and scientific/development workshops/conferences
                   </p>
 
                 </Slider>
@@ -205,7 +214,15 @@ export default function Home() {
 
         </div>
 
-
+        {/* Banner */}
+        {/* <div className='bg-[#F1F9F0] py-5 flex max-h-[200px] relative'>
+          <div className='flex-1'>
+            <p>We are inspired by nature and believe we have a duty as human to do whether it takes to protect it.</p>
+          </div>
+          <div className='flex-1 justify-end'>
+             <Image loader={imageLoader} src={BannerImage} className="h-[90%] w-auto" alt="flag" />
+          </div>
+        </div> */}
       </main>
     </div>
   )
