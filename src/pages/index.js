@@ -253,7 +253,7 @@ export default function Home() {
         <div className='px-10'>
           <div className='left'>
               <h2 className='text-[#285430] mb-2'>OUR TEAM </h2>
-              <h2 className='text-[#BF0A30]'><span className='text-[#002868]'>OF</span>EXPERTS</h2>
+              <h2 className='text-[#BF0A30]'><span className='text-[#002868]'>OF</span> EXPERTS</h2>
           </div>
 
           <div className='my-8 px-20 flex'>
@@ -334,6 +334,15 @@ export default function Home() {
               </div>
             
           </div>
+        </div>
+
+        <div className='bg-[#D9D9D9] text-center py-14 px-36'>
+          <p className='uppercase font-bold text-[#3E3B34]'>We are inspired by nature and believe we have a duty as human to do whether it takes to protect it.
+          Nature and believe we have a duty as human to do whether it takes to protect it
+          </p>
+          <a href=''>
+            <button className='bg-[#5FBF00] px-4 py-2 rounded-lg mt-5 text-[#3C493E] font-bold'>CONTACT US</button>
+          </a>
         </div>
       </main>
     </div>
