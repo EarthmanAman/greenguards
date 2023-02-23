@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import {MdPlayCircleOutline} from "react-icons/md"
 import { IoIosArrowDropright } from "react-icons/io";
 import {GoQuote} from "react-icons/go"
+import {SiFacebook, SiLinkedin, SiTwitter} from "react-icons/si"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -231,7 +232,7 @@ export default function Home() {
         </div>
 
         {/* MESSAGE FROM CHAIRMAN */}
-        <div className='px-10 py-5 flex justify-between'>
+        <div className='px-10 py-5 flex justify-between mb-20'>
           <div className='flex-1'>
             <Image loader={imageLoader} src={Chairman} className="h-[100%] w-auto" alt="flag" />
           </div>
@@ -246,6 +247,92 @@ export default function Home() {
               <p className='text-[#3E3B34] leading-6 tracking-widest'>We provide professional environmental and health consultancy in Liberia, Africa, and the world at large.
               We provide professional environmental and health consultancy in Liberia, Africa, and the world at large</p>
             </div>
+          </div>
+        </div>
+
+        <div className='px-10'>
+          <div className='left'>
+              <h2 className='text-[#285430] mb-2'>OUR TEAM </h2>
+              <h2 className='text-[#BF0A30]'><span className='text-[#002868]'>OF</span>EXPERTS</h2>
+          </div>
+
+          <div className='my-8 px-20 flex'>
+              <div className='w-[100%] m-2 border-[1px] p-3 rounded-lg'>
+                <div className='mb-3'>
+                  <Image loader={imageLoader} src={Chairman} className="h-[100%] w-auto" alt="flag" />
+                </div>
+                <div className='pl-2 text-center'>
+                  <h6 className='text-[#002868]'>Dr. Firstname Lastname</h6>
+                  <p className='text-[#3E3B34] leading-6 tracking-widest text-sm'>Chairman</p>
+                </div>
+                <div className='flex justify-center my-2'>
+                  <hr className='w-[30%]'/>
+                </div>
+                
+                <div className='flex justify-center space-x-4'>
+                  <a href=''><SiFacebook color='#4267B2'/></a>
+                  <a href=''><SiLinkedin color='#0077B5'/></a>
+                  <a href=''><SiTwitter color='#1DA1F2'/></a>
+                </div>
+              </div>
+
+              <div className='w-[100%] m-2 border-[1px] p-3 rounded-lg'>
+                <div className='mb-3'>
+                  <Image loader={imageLoader} src={Chairman} className="h-[100%] w-auto" alt="flag" />
+                </div>
+                <div className='pl-2 text-center'>
+                  <h6 className='text-[#002868]'>Dr. Firstname Lastname</h6>
+                  <p className='text-[#3E3B34] leading-6 tracking-widest text-sm'>Chairman</p>
+                </div>
+                <div className='flex justify-center my-2'>
+                  <hr className='w-[30%]'/>
+                </div>
+                
+                <div className='flex justify-center space-x-4'>
+                  <a href=''><SiFacebook color='#4267B2'/></a>
+                  <a href=''><SiLinkedin color='#0077B5'/></a>
+                  <a href=''><SiTwitter color='#1DA1F2'/></a>
+                </div>
+              </div>
+
+              <div className='w-[100%] m-2 border-[1px] p-3 rounded-lg'>
+                <div className='mb-3'>
+                  <Image loader={imageLoader} src={Chairman} className="h-[100%] w-auto" alt="flag" />
+                </div>
+                <div className='pl-2 text-center'>
+                  <h6 className='text-[#002868]'>Dr. Firstname Lastname</h6>
+                  <p className='text-[#3E3B34] leading-6 tracking-widest text-sm'>Chairman</p>
+                </div>
+                <div className='flex justify-center my-2'>
+                  <hr className='w-[30%]'/>
+                </div>
+                
+                <div className='flex justify-center space-x-4'>
+                  <a href=''><SiFacebook color='#4267B2'/></a>
+                  <a href=''><SiLinkedin color='#0077B5'/></a>
+                  <a href=''><SiTwitter color='#1DA1F2'/></a>
+                </div>
+              </div>
+
+              <div className='w-[100%] m-2 border-[1px] p-3 rounded-lg'>
+                <div className='mb-3'>
+                  <Image loader={imageLoader} src={Chairman} className="h-[100%] w-auto" alt="flag" />
+                </div>
+                <div className='pl-2 text-center'>
+                  <h6 className='text-[#002868]'>Dr. Firstname Lastname</h6>
+                  <p className='text-[#3E3B34] leading-6 tracking-widest text-sm'>Chairman</p>
+                </div>
+                <div className='flex justify-center my-2'>
+                  <hr className='w-[30%]'/>
+                </div>
+                
+                <div className='flex justify-center space-x-4'>
+                  <a href=''><SiFacebook color='#4267B2'/></a>
+                  <a href=''><SiLinkedin color='#0077B5'/></a>
+                  <a href=''><SiTwitter color='#1DA1F2'/></a>
+                </div>
+              </div>
+            
           </div>
         </div>
       </main>
