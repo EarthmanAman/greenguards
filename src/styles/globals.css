@@ -30,4 +30,15 @@
   p {
     @apply font-Calibri text-lg leading-6 tracking-widest
   }
+
+  label {
+    @apply font-Calibri text-sm leading-6 tracking-widest text-[#002868] font-bold
+  }
+  input {
+    @apply border-[1px]  w-[100%] h-8 rounded-md p-4 mb-5 mt-2
+  }
+
+  textarea {
+    @apply border-[1px] w-[100%] mb-5 mt-2 rounded-md
+  }
 }

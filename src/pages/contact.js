@@ -20,17 +20,17 @@ export default function Home() {
       <main className=''>
         <NavBar />
 
-        <div className='flex my-16'>
-            <div className='w-[100%]'>
-                <h2>CONTACT US</h2>
-                <p>Our friendly team would love to hear from you</p>
-                <form>
-                    <div className='flex'>
-                        <div>
+        <div className='flex my-16 bg-white bg-opacity-80 border-[0.5px] p-2 rounded-md'>
+            <div className='w-[100%] p-20 pt-16'>
+                <h2 className='mb-3 text-[#285430]'>CONTACT US</h2>
+                <p className='text-[#3E3B34] leading-6 tracking-widest mb-5'>Our friendly team would love to hear from you</p>
+                <form >
+                    <div className='flex space-x-4'>
+                        <div className='w-[100%]'>
                             <label>First name</label> <br/>
                             <input type="text" placeholder='First name'/>
                         </div>
-                        <div>
+                        <div className='w-[100%]'>
                             <label>First name</label><br/>
                             <input type="text" placeholder='First name'/>
                         </div>
@@ -52,11 +52,11 @@ export default function Home() {
                     </div>
 
                     <div>
-                        <button type='submit'>SUBMIT</button>
+                        <button type='submit' className='bg-[#434ce6] w-[100%] p-2 rounded-md'>SUBMIT</button>
                     </div>
                 </form>
             </div>
-            <div className='w-[100%] min-h-[500px]'>
+            <div className='w-[100%] min-h-[500px] opacity-70'>
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: "" }}
                     defaultCenter={defaultProps.center}
