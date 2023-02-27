@@ -1,3 +1,4 @@
+import Footer from '@/components/footer';
 import Header from '@/components/header';
 import NavBar from '@/components/nav';
 
@@ -22,8 +23,8 @@ export default function Home() {
 
         <div className='flex my-16 bg-white bg-opacity-80 border-[0.5px] p-2 rounded-md'>
             <div className='w-[100%] p-20 pt-16'>
-                <h2 className='mb-3 text-[#285430]'>CONTACT US</h2>
-                <p className='text-[#3E3B34] leading-6 tracking-widest mb-5'>Our friendly team would love to hear from you</p>
+                <h2 className='mb-3 text-[#285430]'>CONTACT <span className='text-[#BF0A30]'>US</span></h2>
+                <p className='text-[#3E3B34] leading-6 tracking-widest mb-10'>Our friendly team would love to hear from you</p>
                 <form >
                     <div className='flex space-x-4'>
                         <div className='w-[100%]'>
@@ -70,6 +71,8 @@ export default function Home() {
                 </GoogleMapReact>
             </div>
         </div>
+
+        <Footer />
       </main>
     </div>
   )
