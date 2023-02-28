@@ -20,7 +20,7 @@ export default function Footer() {
             <div>
             <ul className='flex space-x-4 items-center uppercase text-[#7C8A7F] font-bold justify-between h-full'>
                 <li className='text-[#285430]'>
-                <a href='#'>Home</a>
+                <a href='/'>Home</a>
                 </li>
                 <li>
                 <a href='#'>About Us</a>
@@ -29,11 +29,11 @@ export default function Footer() {
                 <a href='#'>Services</a>
                 </li>
                 <li>
-                <a href='#'>Gallery</a>
+                <a href='/gallery'>Gallery</a>
                 </li>
-                <li>
+                {/* <li>
                 <a href='#'>Career</a>
-                </li>
+                </li> */}
             </ul>
             </div>
         </div>

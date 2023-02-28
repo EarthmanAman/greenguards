@@ -33,9 +33,9 @@ export default function NavBar() {
                 <li>
                   <a href='/gallery'>Gallery</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href='#'>Career</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
