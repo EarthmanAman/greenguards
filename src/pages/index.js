@@ -292,7 +292,7 @@ export default function Home() {
           <p className='uppercase font-bold text-[#3E3B34]'>We are inspired by nature and believe we have a duty as human to do whether it takes to protect it.
           Nature and believe we have a duty as human to do whether it takes to protect it
           </p>
-          <a href=''>
+          <a href='/contact'>
             <button className='bg-[#5FBF00] px-4 py-2 rounded-lg mt-5 text-[#3C493E] font-bold'>CONTACT US</button>
           </a>
         </div>

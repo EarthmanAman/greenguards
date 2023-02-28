@@ -6,7 +6,7 @@ const imageLoader = require("../../loader");
 export default function Footer() {
   
   return (
-    <div className='bg-[#D5E0D3] px-10 py-5'>
+    <div className='bg-[#D5E0D3] px-10 py-5 bottom-0'>
         <div className='flex justify-between w-full'>
         {/* Left */}
         <div className='flex'>

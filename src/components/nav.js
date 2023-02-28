@@ -31,7 +31,7 @@ export default function NavBar() {
                   <a href='#'>Services</a>
                 </li>
                 <li>
-                  <a href='#'>Gallery</a>
+                  <a href='/gallery'>Gallery</a>
                 </li>
                 <li>
                   <a href='#'>Career</a>
