@@ -70,7 +70,7 @@ export default function Gallery() {
             </div>
           </div> */}
 
-          <div className='my-8 ml-32'>
+          <div className='my-8 ml-20'>
 
             <div className="relative flex flex-wrap space-x-8">
               <a href='' className="flex-1">
