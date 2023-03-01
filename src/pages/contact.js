@@ -21,7 +21,32 @@ export default function Home() {
       <main className=''>
         <NavBar />
 
-        <div className='flex my-16 bg-white bg-opacity-80 border-[0.5px] p-2 rounded-md'>
+        <div className='flex flex-col h-[300px] my-10'>
+          <div className='flex-1 h-full'>
+            <h1 className='text-[#285430] mb-4'>Reach out for</h1>
+            <h1 className='text-[#BF0A30]'><span className='text-[#002868]'>CONS</span>ULTATION OR</h1>
+          </div>
+          <div className='flex-4 bg-vector_green bg-contain overflow-hidden h-full relative'>
+            <h1 className='p-4 text-[#285430]'>INQUARIES</h1>
+            
+              <div className='absolute top-5 right-40 w-64 text-center font-bold'>
+                
+              <div className="">
+                <h6 className="text-[#002868]">your@example.com</h6>
+                <p>123 Monrovia, Libera</p>
+                <p className='text-[#3E3B34] leading-6 tracking-widest'>123 Monrovia, Liberia
+                </p>
+                <p className='text-[#3E3B34] leading-6 tracking-widest'>Opposite this building</p>
+                <p className='text-[#3E3B34] leading-6 tracking-widest'>+254 701 467872</p>
+            </div>
+
+              </div>
+            
+          </div>
+        </div>
+
+        
+        <div className='flex mb-16 mt-8 bg-white bg-opacity-80 border-[0.5px] p-2 rounded-md'>
             <div className='w-[100%] p-20 pt-16'>
                 <h2 className='mb-3 text-[#285430]'>CONTACT <span className='text-[#BF0A30]'>US</span></h2>
                 <p className='text-[#3E3B34] leading-6 tracking-widest mb-10'>Our friendly team would love to hear from you</p>

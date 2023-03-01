@@ -9,7 +9,8 @@ module.exports = {
       backgroundImage: {
         'my_bg' : "url('../../public/assets/worldmap.png')",
         'carousel_1' : "url('../../public/assets/carousel_1_op.png')",
-        'contact' : "url('../../public/assets/conifers.jpg')",
+        'grey_map' : "url('../../public/assets/grey_map.png')",
+        'vector_green' : "url('../../public/assets/vector_green.png')",
 
       },
       fontFamily: {
