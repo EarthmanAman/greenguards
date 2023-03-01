@@ -31,13 +31,11 @@ export default function Home() {
             
               <div className='absolute top-5 right-40 w-64 text-center font-bold'>
                 
-              <div className="">
-                <h6 className="text-[#002868]">your@example.com</h6>
-                <p>123 Monrovia, Libera</p>
-                <p className='text-[#3E3B34] leading-6 tracking-widest'>123 Monrovia, Liberia
-                </p>
-                <p className='text-[#3E3B34] leading-6 tracking-widest'>Opposite this building</p>
-                <p className='text-[#3E3B34] leading-6 tracking-widest'>+254 701 467872</p>
+              <div className="bg-white py-2 bg-opacity-70 rounded-lg">
+                <h6 className="text-[#BF0A30] text-sm lowercase">your@example.com</h6>
+                <p className='text-[#3E3B34] leading-6 tracking-widest text-sm'>123 Monrovia, Libera</p>
+                <p className='text-[#3E3B34] leading-6 tracking-widest text-sm'>Opposite this building</p>
+                <p className='text-[#3E3B34] leading-6 tracking-widest text-sm'>+254 701 467872</p>
             </div>
 
               </div>
