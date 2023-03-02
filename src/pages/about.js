@@ -120,8 +120,8 @@ export default function Home() {
         </div>
 
         {/* OUR TEAM */}
-        <div className='px-10 '>
-          <div className='left'>
+        <div className='px-1 '>
+          <div className='left px-10'>
               <h2 className='text-[#285430] mb-2'>OUR TEAM </h2>
               <h2 className='text-[#BF0A30]'><span className='text-[#002868]'>OF</span> EXPERTS</h2>
           </div>
