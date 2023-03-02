@@ -22,6 +22,7 @@
   h3 {
     @apply font-Calibri text-xl uppercase font-bold
   }
+  
 
   h6 {
     @apply font-Calibri text-lg uppercase font-bold

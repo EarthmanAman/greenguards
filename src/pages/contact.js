@@ -2,6 +2,7 @@ import Footer from '@/components/footer';
 import Header from '@/components/header';
 import NavBar from '@/components/nav';
 
+import {MdOutlineArrowRightAlt} from "react-icons/md"
 import GoogleMapReact from 'google-map-react';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
@@ -27,8 +28,10 @@ export default function Home() {
             <h1 className='text-[#BF0A30]'><span className='text-[#002868]'>CONS</span>ULTATION OR</h1>
           </div>
           <div className='flex-4 bg-vector_green bg-contain overflow-hidden h-full relative'>
-            <h1 className='p-4 text-[#285430]'>INQUARIES</h1>
-            
+            <div className="flex items-center">
+              <h1 className='p-4 text-[#285430]'>INQUARIES</h1>
+              <MdOutlineArrowRightAlt size={40}/>
+            </div>
               <div className='absolute top-5 right-40 w-64 text-center font-bold'>
                 
               <div className="bg-white py-2 bg-opacity-70 rounded-lg">
