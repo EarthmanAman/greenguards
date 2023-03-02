@@ -288,6 +288,7 @@ export default function Home() {
           </div>
         </div>
 
+        {/* BOTTOM BANNER */}
         <div className='bg-carousel_1 bg-contain overflow-hidden bg-opacity-20 text-center py-14 px-36'>
           <p className='uppercase font-bold text-[#3E3B34]'>We are inspired by nature and believe we have a duty as human to do whether it takes to protect it.
           Nature and believe we have a duty as human to do whether it takes to protect it
