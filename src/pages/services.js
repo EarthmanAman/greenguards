@@ -73,7 +73,7 @@ export default function Gallery() {
           <div className='my-8 ml-20'>
 
             <div className="relative flex flex-wrap space-x-8">
-              <a href='' className="flex-1">
+              <a href='/service' className="flex-1">
                 <div className='relative border-[1px] border-[#285430]  p-10 rounded-lg mb-10'>
                   <h3>Environmental Consulting</h3>
                   <p className='text-sm my-3'>To provide professional environmental and health consultancy in Liberia.
